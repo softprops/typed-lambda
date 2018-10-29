@@ -1,6 +1,8 @@
 # typed lambda
 
-> an attempt to formalize the event types involved in AWS lambda interfaces
+> an attempt to formalize the event types involved in [AWS lambda](https://aws.amazon.com/lambda/) interfaces
+
+Run code without thinking about servers. Write code without guessing types.
 
 ## 🤔 why
 
