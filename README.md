@@ -8,7 +8,7 @@ Run code without thinking about servers. Write code without guessing types.
 
 ## 🤔 why
 
-Though there are [scattered samples of AWS Lambda events](https://docs.aws.amazon.com/lambda/latest/dg/eventsources.html) provided by AWS there exist to formal schema describing them. This repository is a a collection of JSON schema documents organized by lambda trigger source that describe event structural types.
+Though there are [scattered samples of AWS Lambda events](https://docs.aws.amazon.com/lambda/latest/dg/eventsources.html) provided by AWS exist but absent of any formal schema describing them. This repository aims to be an accurate a collection of JSON schema documents organized by lambda trigger source that describe event structural types.
 
 So why should anyone care?
 
