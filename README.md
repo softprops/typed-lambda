@@ -45,8 +45,20 @@ The following are provided lambda triggers ( in order for reference to AWS's doc
 * [cloudfront](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html#supported-event-source-cloudfront)
 * [kinesis firehose](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html#supported-event-source-kinesis-firehose)
 
+## a note on presence of absence of fields
+
+Some fields may be absent in events and some may be present with `null` values. Fields with `null` should *not* be included the json schema `required` field.
+
 ## 👯 get involved
 
 This project AIMS to provide the most accurate reflection of AWS lambda types but is currently a best effort approach as no official documentation exists. If you become aware that fields are missing or incorrect. Please open a pull request containing your changes and an example payload that doesn't match the current schemas
+
+To validate the existing schemas you will need to have `npm` installed.
+
+Run the following
+
+```sh
+$ make test
+```
 
 Doug Tangren (softprops) 2018
