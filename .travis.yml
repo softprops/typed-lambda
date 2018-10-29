@@ -1,0 +1,3 @@
+language: minimal
+script:
+- make test
