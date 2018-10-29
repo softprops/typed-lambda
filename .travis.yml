@@ -1,3 +1,6 @@
+sudo: false
 language: minimal
-script:
-- make test
+branches:
+  only:
+  - master
+script: make test
