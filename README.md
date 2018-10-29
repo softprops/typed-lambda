@@ -4,6 +4,8 @@
 
 Run code without thinking about servers. Write code without guessing types.
 
+🚧 The provided definitions are currently under construction 🚧
+
 ## 🤔 why
 
 Though there are [scattered samples of AWS Lambda events](https://docs.aws.amazon.com/lambda/latest/dg/eventsources.html) provided by AWS there exist to formal schema describing them. This repository is a a collection of JSON schema documents organized by lambda trigger source that describe event structural types.
