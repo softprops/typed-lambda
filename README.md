@@ -45,7 +45,7 @@ The following are provided lambda triggers ( in order for reference to AWS's doc
 * [cloudfront](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html#supported-event-source-cloudfront)
 * [kinesis firehose](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html#supported-event-source-kinesis-firehose)
 
-## 👯 contributing
+## 👯 get involved
 
 This project AIMS to provide the most accurate reflection of AWS lambda types but is currently a best effort approach as no official documentation exists. If you become aware that fields are missing or incorrect. Please open a pull request containing your changes and an example payload that doesn't match the current schemas
 
