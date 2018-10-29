@@ -45,7 +45,7 @@ The following are provided lambda triggers ( in order for reference to AWS's doc
 * [cloudfront](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html#supported-event-source-cloudfront)
 * [kinesis firehose](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html#supported-event-source-kinesis-firehose)
 
-## a note on presence of absence of fields
+## required fields
 
 Some fields may be absent in events and some may be present with `null` values. Fields with `null` should *not* be included the json schema `required` field.
 
