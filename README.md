@@ -17,11 +17,11 @@ If sufficient schema's existed for AWS lambda events, this would no longer be ne
 
 * 📓 Documentation - Surprisingly what currently exists, is incomplete, and therefore only partially useful
 
-* 👌 Correctness - Types can provide use to programmers even if your native programming language does not support them. Here is a [good example](https://github.com/DefinitelyTyped/DefinitelyTyped). Types enable productivey making it less possible to represent mispreprented data.
+* 👌 Correctness - Types can provide use to programmers even if your native programming language does not support them. Here is a [good example](https://github.com/DefinitelyTyped/DefinitelyTyped). Types enable productivity by making it less possible to represent mispreprented data.
 
 ## 🔬 schemas
 
-The following are provided in order for reference to AWS's documentation on [event sources](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html)
+The following are provided lambda triggers ( in order for reference to AWS's documentation on [event sources](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html) ). The goal here is to definition schema docs that line up with these. An initial set of schemas is under way under the [events](events) directory of this repository.
 
 * [s3](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html#supported-event-source-s3)
 * [dynamodb](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html#supported-event-source-dynamo-db)
