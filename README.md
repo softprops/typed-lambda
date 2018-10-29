@@ -23,7 +23,7 @@ If sufficient schema's existed for AWS lambda events, this would no longer be ne
 
 ## 🔬 schemas
 
-The following are provided lambda triggers ( in order for reference to AWS's documentation on [event sources](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html) ). The goal here is to definition schema docs that line up with these. An initial set of schemas is under way under the [events](events) directory of this repository. 🙈 As schemas become formalized and tested they will be linked under the trigger sources below for reference.
+The following are provided lambda triggers ( in order for reference to AWS's documentation on [event sources](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html) ). The goal here is to define [JSON schema](https://json-schema.org/) docs that line up with these triggers. Contruction of an initial set of schemas is under way under the [events](events) directory of this repository. 🙈 As schemas become formalized and tested they will be linked under the trigger sources below for reference.
 
 * [s3](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html#supported-event-source-s3)
 * [dynamodb](https://docs.aws.amazon.com/lambda/latest/dg/invoking-lambda-function.html#supported-event-source-dynamo-db)
