@@ -1,4 +1,4 @@
-# typed lambda
+# typed lambda [![Build Status](https://travis-ci.org/softprops/typed-lambda.svg?branch=master)](https://travis-ci.org/softprops/typed-lambda)
 
 > an attempt to formalize the event types involved in [AWS lambda](https://aws.amazon.com/lambda/) interfaces
 
